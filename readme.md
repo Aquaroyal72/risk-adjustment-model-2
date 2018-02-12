@@ -2,7 +2,7 @@
 
 ## 1. Background
 
-The primary goal of this project is to make Centers for Medicare & Medicaid Services' (CMS) Medical Loss Ratio (MLR) data regarding the Affordable Care Act (ACA) more easily accessible to the public. We achieve this goal by parsing each individual insurer's reported data and combining that into a large CSV output. 
+The primary goal of this project is to make Centers for Medicare & Medicaid Services' (CMS) Medical Loss Ratio (MLR) data regarding the Affordable Care Act (ACA) more easily accessible to the public. We started to achieve this goal by parsing each individual insurer's reported data and combining that into a large CSV output last semester. {[Fall 2017 Code Repository](https://github.com/guanzgrace/risk-adjustment-model))}
 
 A secondary goal of this project is to perform a prelimary statistical analysis of the data. Additionally, we attempt to duplicate CMS statistics on this ACA data. We search for statistical outliers and any correlations between premiums and transfers or spending and transfers, and we calculate year to year per person risk adjustment payment.
 
