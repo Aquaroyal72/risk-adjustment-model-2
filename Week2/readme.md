@@ -2,11 +2,15 @@
 
 0. (*Preprocessing.*) For my own sake, I need to figure out why my CSV files are automatically compressing the data into one column. This is very annoying to deal with, as it basically renders the CSV unusable. For now, I will save files in an XLSX format until this is rectified. Because of these CSV issues, I need to recreate datasets for 2015 and 2016 individual and small group PLRS data from the Appendices.
 
-This task has been finished and saved as XLSX format to avoid further errors of the sort.
+This task has been finished and saved as XLSX format to avoid further errors of the sort. GitHub commit **3e079b5** has the correct XLSX files, in case there is further corruption of data.
 
 - - -
 
 1. (*Histogram.*) Look at 2015 vs. 2016 PLRS change in a histogram for both the individual and the small group markets.
+
+![Individual Group](Output/individualPLRSdiff.png)
+
+![Small Group](Output/smallgroupPLRSdiff.png)
 
 - - -
 
