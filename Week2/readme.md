@@ -94,6 +94,33 @@ Full table of values (columns 4-7 represent the sums in the formula above):
 An Error I got: 'utf-8' codec can't decode byte 0x96 in position 39: invalid start byte
 Solution: use encoding = 'ISO-8859-1'
 
+![Individual PLRS 2015 and Sum(abs(transfers))/Sum(MM)](Output/indplrs2015vratio2015.png)
+
+![Individual PLRS 2016 and Sum(abs(transfers))/Sum(MM)](Output/indplrs2016vratio2015.png)
+
+![Individual PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM)](Output/indplrsdiffvratio2015.png)
+
+![Small Group PLRS 2015 and Sum(abs(transfers))/Sum(MM)](Output/sgplrs2015vratio2015.png)
+
+![Small Group PLRS 2016 and Sum(abs(transfers))/Sum(MM)](Output/sgplrs2016vratio2015.png)
+
+![Small Group PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM)](Output/sgplrsdiffvratio2015.png)
+
+
+R values
+
+1. Individual PLRS 2015 and Sum(abs(transfers))/Sum(MM) : 0.0215
+
+2. Individual PLRS 2016 and Sum(abs(transfers))/Sum(MM) : -0.007
+
+3. Individual PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM) : -0.065
+
+4. Small Group PLRS 2015 and Sum(abs(transfers))/Sum(MM) : 0.217
+
+5. Small Group PLRS 2016 and Sum(abs(transfers))/Sum(MM) : 0.219
+
+6. Small Group PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM) : -0.044
+
 - - -
 
 3. (*Large companies leaving the marketplace.*) I was talking about this with my writing seminar professor today. His brother works at United Health. He mentioned to me that United Health is really unsure what to do as large companies such as Amazon, JP Morgan, etc. start cutting out the middle man employer because they want to go directly to the provider. Losing so many customers (in the large group market?) should have impacts on the other groups as well, if they no longer pull in a steady stream of revenue from these large companies. Here is a news article about it: https://www.cnbc.com/2018/01/30/amazon-berkshire-hathaway-and-jpmorgan-chase-to-partner-on-us-employee-health-care.html 
