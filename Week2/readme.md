@@ -20,7 +20,7 @@ Qualitative question: why are many transfers 0? If they do not have transfers in
 
 To do this, first I will clean the old dataset of all 2015 companies so that it matches what we want to find. I matched the companies with their actual risk transfer values. I did an outer merge.
 
-We computed: $\frac{\sum |transfers|}{\sum member months}$ per state.
+We computed: $$\frac{\sum |transfers|}{\sum member months}$$ per state.
 
 We are looking to correlate above with payments per member month.
 
