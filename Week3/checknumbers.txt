@@ -1,0 +1,52 @@
+428195632.329
+    7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15  \
+53                                             4418.0           
+54                                            63292.0           
+55                                          6902480.0           
+56                                          5746687.0           
+57                                           141014.0           
+58                                           104223.0           
+59                                             9787.0           
+60                                            15120.0           
+61                                                NaN           
+62                                           670834.0           
+63                                          2002237.0           
+64                                                NaN           
+65                                          5935591.0           
+66                                                NaN           
+67                                           240012.0           
+68                                            71865.0           
+69                                           122265.0           
+70                                           351232.0           
+71                                             1478.0           
+72                                             5622.0           
+73                                            12461.0           
+74                                            40958.0           
+
+    1.1Directpremiumwritten2HealthInsuranceINDIVIDUALTotalasof3/31/15  
+53                                       2.247069e+06                  
+54                                       2.090231e+07                  
+55                                       2.473402e+09                  
+56                                       2.103117e+09                  
+57                                       6.026872e+07                  
+58                                       4.022093e+07                  
+59                                       5.141306e+06                  
+60                                       6.988341e+06                  
+61                                                NaN                  
+62                                       2.295156e+08                  
+63                                       6.530745e+08                  
+64                                                NaN                  
+65                                       2.273511e+09                  
+66                                                NaN                  
+67                                       6.611111e+07                  
+68                                       2.099052e+07                  
+69                                       4.858923e+07                  
+70                                       1.049856e+08                  
+71                                       1.260433e+05                  
+72                                       2.881887e+06                  
+73                                       5.995770e+06                  
+74                                       1.764851e+07                  
+1969110929.3
+1.0
+C:\Users\guanz\Anaconda3\lib\site-packages\ipykernel_launcher.py:28: FutureWarning: convert_objects is deprecated.  Use the data-type specific converters pd.to_datetime, pd.to_timedelta and pd.to_numeric.
+1969110929.2980404

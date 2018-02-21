@@ -6,7 +6,7 @@
 
 - - -
 
-1. (*Rigorous, systematic statistics per state (IWMath.pdf).*) I have created a file to calculate rigorous statistics for all of the states.
+1. (*Rigorous, systematic statistics per state (IWMath.pdf).*) I have created a file to calculate rigorous statistics for all of the states. See RigorousStatsCalculator.ipynb.
 
 2. (*Some hypotheses.*) Are costs correlated with risk adjustment? Is the correlation between member months and the size of transfers per member month (abs(transfers)/MM) ~ sqrt(MM)? What does the histogram of MM in all companies look like?
 
