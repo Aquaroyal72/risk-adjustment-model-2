@@ -1,7 +1,5 @@
 # Week 3
 
-Summarizing the next steps:
-
 0. (*Pre-pre-processing.*) I created a process to cut out the irrelevant parts of the dataset to create a much smaller, manageable file. This file contains companies that have both member months and risk adjustment values reported. From this file, we can look at 2014-2015 changes as well as 2015-2016 changes.
 
 - This file has been made more easily readable.
