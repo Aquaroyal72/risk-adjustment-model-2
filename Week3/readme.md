@@ -10,6 +10,22 @@
 
 2. (*Some hypotheses.*) Are costs correlated with risk adjustment? Is the correlation between member months and the size of transfers per member month (abs(transfers)/MM) ~ sqrt(MM)? What does the histogram of MM in all companies look like?
 
+Weighted, per member month
+
+1. Individual PLRS 2015 and Sum(abs(transfers))/Sum(MM) : 0.0215
+
+2. Individual PLRS 2016 and Sum(abs(transfers))/Sum(MM) : -0.007
+
+3. Individual PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM) : -0.065
+
+4. Small Group PLRS 2015 and Sum(abs(transfers))/Sum(MM) : 0.217
+
+5. Small Group PLRS 2016 and Sum(abs(transfers))/Sum(MM) : 0.219
+
+6. Small Group PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM) : -0.044
+
+
+
 3. (*Adjust PLRS correlations with weighted averages.*)
 
 - - - 
