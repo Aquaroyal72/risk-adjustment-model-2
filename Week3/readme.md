@@ -6,6 +6,18 @@
 
 1. (*Rigorous, systematic statistics per state (IWMath.pdf).*) I have created a file to calculate rigorous statistics for all of the states. See RigorousStatsCalculator.ipynb.
 
+Some r-values are below:
+
+| 2014 | 2015 | Metrics                                       |
+|------|------|-----------------------------------------------|
+| 0.46 | 0.41 | Costs v. Risk Transfers (no absolute value)   |
+| 0.18 | 0.35 | Premium v. Risk Transfers (no absolute value) |
+| N/A  | 0.02 | PLRS v. Risk Transfers (no absolute value)    |
+| 0.54 | 0.34 | Costs v. Premiums                             |
+| 0.41 | 0.31 | Loss v. Risk Transfers                        |
+
+- - -
+
 2. (*Some hypotheses.*) Are costs correlated with risk adjustment? Is the correlation between member months and the size of transfers per member month (abs(transfers)/MM) ~ sqrt(MM)? What does the histogram of MM in all companies look like?
 
 Weighted, per member month
@@ -22,9 +34,9 @@ Weighted, per member month
 
 6. Small Group PLRS 2016-2015 and Sum(abs(transfers))/Sum(MM) : -0.044
 
+- - -
 
-
-3. (*Adjust PLRS correlations with weighted averages.*)
+3. (*Adjust PLRS correlations with weighted averages.*) PLRS is basically uncorrelated with risk transfers, because the weighted correlation is 0.02.
 
 - - - 
 

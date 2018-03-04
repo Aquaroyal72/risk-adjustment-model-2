@@ -29,8 +29,6 @@
 
 Were there any policy changes that could have led to this big discrepancy? Did employers stop offering insurance, kicking people into the individual market?
 
-
-
 - - -
 
 0e. (*Distribution of profit margins, net profits per state.*) 
@@ -52,4 +50,4 @@ The unweighted correlation between 2015-2014 profits pmm and 2015-2014 change in
 
 - - -
 
-1. (*Documenting work from week 3.*)
+1. (*Documenting work from week 3.*) - Done.
