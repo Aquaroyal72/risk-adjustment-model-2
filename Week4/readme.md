@@ -1,6 +1,6 @@
 # Week 4
 
-0. (*Descriptive Statistics.*) 
+0. (*Descriptive Statistics.*) See visuals.docx for some graphs.
 
 - - -
 
