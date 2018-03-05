@@ -53,3 +53,7 @@ premiums vs. costs
 premiums vs. transfers
 
 costs vs. transfers
+
+profit vs. transfers
+
+I have created 2014statedistributiontransfers.xlsx and 2015statedistributiontransfers.xlsx. I am interested in seeing whether these correlate with state billable member months and state average premium.
