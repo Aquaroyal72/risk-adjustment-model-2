@@ -20,3 +20,8 @@
 | Transfers 2014  | -                       | 15.67              |
 | Transfers 2015  | -                       | 7.54               |
 | Transfers 2016  | -                       | 9.31               |
+
+
+will also work on scatter plots. 
+
+will also re-run calculation of the linear regression (transfers = a premiums + b costs) without outliers and companies with few member months.
