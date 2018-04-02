@@ -23,3 +23,10 @@ summary(fit2015ind2)
 #2016 individual
 fit2016ind2 <- lm(IndCostsPMM ~ IndRTPMM + IndPremiumPMM, data=dataset2016)
 summary(fit2016ind2)
+
+coefficients(fit2014ind)
+coefficients(fit2015ind)
+coefficients(fit2016ind)
+coefficients(fit2014ind2)
+coefficients(fit2015ind2)
+coefficients(fit2016ind2)
