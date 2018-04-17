@@ -1,12 +1,8 @@
 (1) Does losing money cause plans to drop out the next year? Do negative transfers make them drop out?
 
-Among companies reporting premiums, costs, and transfers... the market is relatively stable. 
+Among companies reporting premiums, costs, and transfers... the market is relatively stable. I took the same data from before, where the "leading year" had MM > 2000. I have the same problem as not knowing how to define "exiting the market". I defined "exiting the market" as not reporting risk transfers in the following year, not reporting MM the following year, or having MM < 2000 the following year.
 
-I took the same data from before, where the "leading year" had MM > 2000. 
-
-I have the same problem as not knowing how to define "exiting the market". I defined "exiting the market" as not reporting risk transfers in the following year, not reporting MM the following year, or having MM < 2000 the following year.
-
-2014 -> 2015
+For 2014 -> 2015:
 
 (Avg Premium, Avg Costs, Avg Transfers, Avg Premium - Costs)
 
