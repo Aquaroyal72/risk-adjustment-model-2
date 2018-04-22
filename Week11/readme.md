@@ -1,7 +1,7 @@
 
 Without removing outliers
 
-| TotalPC Quintile in 2014 | Bottom | 4 | 3 | 2 | Top |
+| TotalPC Quintile in 2014 | Bottom | 2 | 3 | 4 | Top |
 |------------------------------|---------|--------|-------|-------|-------|
 | n exited the market | 24 | 19 | 17 | 11 | 16 |
 | n in quinitle | 75 | 76 | 76 | 75 | 75 |
@@ -10,7 +10,7 @@ Without removing outliers
 
 With removing outliers (specifically, Assurant Inc., which includes Time Insurance Company and John Alden Life Insurance Company; and Aetna and Humana as the buyout of Humana failed, so I'm not sure what eventually happened...)
 
-| TotalPC Quintile in 2014 | Bottom | 4 | 3 | 2 | Top |
+| TotalPC Quintile in 2014 | Bottom | 2 | 3 | 4 | Top |
 |------------------------------|---------|--------|-------|-------|-------|
 | n exited the market | 15 | 8 | 4 | 2 | 2 |
 | n in quinitle | 75 | 76 | 76 | 75 | 75 |
