@@ -112,3 +112,37 @@ In the bottom quintile, these are the companies that exited:
 - Time Insurance Company	(NV, CA, AZ, AR, FL, SC, AK)
 
 - WINhealth Partners	WY
+
+- - -
+
+I re-did some old correlations. Recall that ExitedMarketIn2016 is 1 if the company exits the market in 2016, and 0 otherwise. By removing the outliers (Time, John Alden), we gained a little more power. 
+
+ExitedMarketIn2016 ~ -2.0462893 + 0.9876824  (p value 0.005) TotalPC_2014_Quintile1  + -0.9982331 (p value 0.11) TotalPC_2014_Quintile5
+
+Interpretation: if you are in the bottom 20%, then you are likely to exit the market (ExitedMarketIn2016 ~ -1.053). If you are in the top 20%, you are very unlikely to exit the market (ExitedMarketIn2016 ~ -3.038). However, I don't understand why ExitedMarketIn2016 can be negative as it is defined to be either 0 or 1.
+
+- - -
+
+Finally, new calculations (attached)
+I calculated change in member months 16 - 14 by log(MM in 16) - log(MM in 14). I don't think this is right. Logs can't take negative numbers, so I was wondering how to do something like log(MM16-MM14) when MM16-MM14 is negative. 
+
+I looked at 4 outcomes:
+
+1. log MM 16
+
+2. log MM 16 - log MM 14 (should probably be changed, as none of these correlations were significant)
+
+3. transfers 16
+
+4. transfers 16 - transfers 14
+
+and 3 dependent variable sets:
+A. total PC 14 + transfers 14
+
+B. total PC 14 + transfers 14 + reins 14
+
+C. transfers 14 + reins 14
+
+recall that total PC 14 = premiums + transfers + reinsurance - costs
+
+From all of these, it looks like reinsurance isn't really correlated with anything, but TotalPC14 and Transfers in 14 are correlated (TotalPC14 more so than Transfers in 14).
