@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import pandas as pd
 import numpy as np
 import warnings
@@ -40,7 +42,7 @@ def add_columns_ind(playground1):
     playground1["IndPremiumPMM"] = playground1["1.1Directpremiumwritten2HealthInsuranceINDIVIDUALTotalasof3/31/15"] / playground1["7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15"]
     playground1["IndCostsPMM"] = playground1["2.16Totalincurredclaims2HealthInsuranceINDIVIDUALTotalasof3/31/15"] / playground1["7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15"]
     playground1["IndRTPMM"] = playground1["HHS RISK ADJUSTMENT TRANSFER AMOUNT (INDIVIDUAL MARKET, INCLUDING CATASTROPHIC)"] / playground1["7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15"]
-	playground1["IndReinsPMM"] = playground1["REINSURANCE PAYMENT AMOUNT (OR NOT ELIGIBLE)"] / playground1["7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15"]
+    playground1["IndReinsPMM"] = playground1["REINSURANCE PAYMENT AMOUNT (OR NOT ELIGIBLE)"] / playground1["7.4Membermonths2HealthInsuranceINDIVIDUALTotalasof3/31/15"]
     playground1["IndLossAPMM"] = playground1["IndPremiumPMM"] - playground1["IndCostsPMM"]
     playground1["IndLossBPMM"] = playground1["IndLossAPMM"] + playground1["IndRTPMM"]
     playground1["IndLossCPMM"] = playground1["IndLossBPMM"] + playground1["IndReinsPMM"]
