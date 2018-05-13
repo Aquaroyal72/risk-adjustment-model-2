@@ -1,5 +1,10 @@
 setwd('C:/Users/guanz/Desktop/JIW2/Week12')
-exitdata <- read.csv('MarketExitAll_week12.csv')
+#exitdata <- read.csv('MarketExitAll_week12.csv')
+
+exitdata2 <- read.csv('MarketExitAll1415.csv')
+
+exitfit <- glm(IndRTPMM_2015 ~ TotalLossPMM + IndRTPMM_2014, data=exitdata2)
+summary(exitfit)
 
 # Our sample is all companies that have above 2000 member months in the 
 # individual group in both 2014 and 2015 who have data in 2016. However,
@@ -29,6 +34,6 @@ summary(exitfit)
 coefficients(exitfit)
 
 # RiskTransfersPerMemberMonth2016 ~ TotalLossPerMemberMonth2015 + RiskTransfersPerMemberMonth2015
-exitfit <- glm(RiskTransfersPerMemberMonth2015 ~ TotalLossPerMemberMonth2014 + RiskTransfersPerMemberMonth2014, data=exitdata)
+exitfit <- glm(RiskTransfersPerMemberMonth2016 ~ TotalLossPerMemberMonth2015 + RiskTransfersPerMemberMonth2015, data=exitdata)
 summary(exitfit)
 coefficients(exitfit)
